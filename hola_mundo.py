@@ -13,4 +13,4 @@ MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio",
 def inicio():
     hoy = datetime.now()
     fecha = f"{DIAS[hoy.weekday()]}, {hoy.day} de {MESES[hoy.month - 1]} de {hoy.year}"
-    return f"<p>Buenos días, hoy es {fecha}</p><h1>Hola mundo</h1>"
+    return f"<p>Buenos días por segunda vez, hoy es {fecha}</p><h1>Hola mundo</h1>"
